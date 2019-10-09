@@ -1,0 +1,14 @@
+
+Let income= Number(prompt("Enter your income"))
+
+submit.onclick=function(){
+  if (income < 30000) 
+  yourincomelbl.value = (`With your income of ${income}, you are in the 8% tax bracket.`);
+} else if (income < 99999) {
+  yourincomelbl.value =(`With your income of ${income}, you are in the 15% tax bracket.`);
+} else {
+  yourincomelbl.value =(`With your income of ${income}, you are in the 25% tax bracket.`);
+}
+
+
+
