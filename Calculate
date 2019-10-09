@@ -1,9 +1,0 @@
-function calcAvg(num1, num2, num3) {
-  return (num1 + num2 + num3)/3)*math.pow(num1,2)
-}
-
-Let num1= Number(prompt("Enter a Number"))
-Let num2= Number(prompt("Enter a Number"))
-Let num3= Number(prompt("Enter a Number"))
-
-alert(`Your calculation is ${calcAvg}`);
